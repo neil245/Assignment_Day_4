@@ -6,6 +6,17 @@ public class SnakeAndLadderGame {
 		System.out.println(init_position);
 			int dice = (int)Math.floor(Math.random()*6+1);
 			System.out.println(dice);
+			int move = (int)Math.floor(Math.random()*3);
+			System.out.println(move);
+			if (move==0) {
+				System.out.println("No play");
+			}
+			else if (move==1) {
+				System.out.println("Ladder");
+			}
+			else {
+				System.out.println("Snake");
+			}
 			
 			
 		}
